@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: common-lib
+Version: 1.0.0
+Summary: common package
+Author-email: N A Sifat <mdnuraminsifat380@gmail.com>
+License: MIT
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+Requires-Dist: Django==5.0.8
+Requires-Dist: django-cors-headers==4.4.0
+Requires-Dist: djangorestframework==3.15.2
+Requires-Dist: drf-yasg==1.21.7
+Requires-Dist: django-debug-toolbar==4.4.6
+Requires-Dist: django-environ==0.11.2
+Requires-Dist: django-extensions==3.2.3
+Requires-Dist: django-storages==1.14.4
+Requires-Dist: django-filter==24.2
+Requires-Dist: requests==2.32.3
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: psycopg2-binary==2.9.9
+Requires-Dist: aenum==3.1.15
+Requires-Dist: redis==4.0.2
+Provides-Extra: dev
+Requires-Dist: setuptools>=64; extra == "dev"
